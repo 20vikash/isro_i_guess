@@ -1,5 +1,5 @@
 import sys
-from test import *
+from benchmark import *
 from graph import *
 
 args = sys.argv
