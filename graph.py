@@ -23,7 +23,7 @@ def plot_results(hHex, cHex, stress):
     plt.plot(hmac_sizes, hmac_times, label="HMAC", marker='o', color='blue')
     plt.plot(cmac_sizes, cmac_times, label="CMAC", marker='x', color='red')
 
-    plt.xlabel('Input Size (bytes)', fontsize=12)
+    plt.xlabel('Input Size', fontsize=12)
     plt.ylabel('Time Taken (seconds)', fontsize=12)
     plt.title('Time Taken for HMAC vs CMAC', fontsize=14)
     
